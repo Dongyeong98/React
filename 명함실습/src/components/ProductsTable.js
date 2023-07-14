@@ -1,4 +1,5 @@
 import React from "react";
+import * as S from './ProductsTable.style';
 
 export default function ProductsTable(props) {
     const { category, inStockOnly, items } = props
@@ -9,12 +10,12 @@ export default function ProductsTable(props) {
     return (
         <>
             <tr>
-                <td>{category}</td>
+                <S.Category>{category}</S.Category>
             </tr>
 
             {filteredItems.map((item, idx) => (
                 <tr key={idx}>
-                    <td>{item.name}</td>
+                    <S.ProductName stocked={item.stocked}>{item.name}</S.ProductName>
                     <td>{item.price}</td>
                 </tr>
             ))}

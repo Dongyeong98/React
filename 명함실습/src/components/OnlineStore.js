@@ -19,7 +19,7 @@ export default function OnlneStore() {
         {category : "Sporting Goods", price : "$29.99", stocked : false, name : "Basketball"},
         {category : "Electroncs", price : "$99.99", stocked : true, name : "iPod Touch"},
         {category : "Electroncs", price : "$399.99", stocked : false, name : "iPhone 5"},
-        {category : "Electroncs", price : "$199.99", stocked : true, name : "Nexus 7"},
+        {category : "Electroncs", price : "$199.99", stocked : true, name : "Nexus 7"} ,
     ];
 
 
